@@ -78,6 +78,14 @@ main {
     color: blue;
     font-weight: bold;
 }
+
+.contactsection form{
+    display: inline-block;
+    justify-content: center;
+    gap: 20px;
+}
+
+
 footer {
     background-color: black;
     color: orange;
