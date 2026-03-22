@@ -79,10 +79,21 @@ main {
     font-weight: bold;
 }
 
-.contactsection form{
-    display: inline-block;
+.contactsection .contactform{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+.contactsection .contactform button {
+   background-color: black;
+   color: white;
+   padding: 10px 40px;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
 }
 
 
