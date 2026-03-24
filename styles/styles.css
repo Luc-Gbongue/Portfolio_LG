@@ -47,6 +47,14 @@ main {
    text-align: center;
 }
 
+.homebox {
+    align-items: center;
+    text-align: center;
+}
+#home img{
+    width: 100%;
+}
+
 .skillbox {
     display: flex;
     justify-content: center;
