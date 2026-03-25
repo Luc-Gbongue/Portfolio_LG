@@ -47,12 +47,23 @@ main {
    text-align: center;
 }
 
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    background-color: rgba(23, 76, 175, 0.7)
+}
 .homebox {
+    color: white;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
 #home img{
-    width: 100%;
+    width: 100vh;
+    margin: 0;
 }
 
 .skillbox {
