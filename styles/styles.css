@@ -101,6 +101,19 @@ main {
     font-weight: bold;
 }
 
+.processcards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.processbox {
+    background-color: #5448bb;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
 .contactsection .contactform{
     display: flex;
     flex-direction: column;
